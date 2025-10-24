@@ -1,5 +1,3 @@
--- Full description of the books table without DESCRIBE or EXPLAIN
-
 SELECT 
     COLUMN_NAME AS 'Field',
     COLUMN_TYPE AS 'Type',
@@ -11,6 +9,6 @@ FROM
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
     TABLE_SCHEMA = DATABASE()
-    AND TABLE_NAME = 'Books'
+    AND TABLE_NAME = 'books'
 ORDER BY 
     ORDINAL_POSITION;
