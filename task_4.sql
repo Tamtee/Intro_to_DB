@@ -1,6 +1,7 @@
+-- Full description of the books table without DESCRIBE or EXPLAIN
 SELECT 
-    COLUMN_NAME AS 'Field',
-    COLUMN_TYPE AS 'Type',
+    COLUMN_NAME AS Field,
+    COLUMN_TYPE AS Type,
     IS_NULLABLE AS 'Null',
     COLUMN_KEY AS 'Key',
     COLUMN_DEFAULT AS 'Default',
